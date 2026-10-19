@@ -63,6 +63,7 @@ This list focuses on **tools that agents call**, not the agents themselves. When
 
 ## API & Web Interaction
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) - Local macOS payment runtime for agents with x402 support and foreground owner approval for signing. Native JSON envelopes and a command manifest from `apn help --json`. `JSON` `Agent-First`
 - [HTTPie](https://github.com/httpie/cli) - Human-friendly HTTP client with JSON as the default content type. `--print=b` for body-only output. Sessions, plugins, `--offline` for request preview. `JSON`
 - [xh](https://github.com/ducaale/xh) - HTTPie reimplemented in Rust for speed. Single static binary. HTTPie-compatible syntax. `JSON`
 - [curlie](https://github.com/rs/curlie) - curl frontend with HTTPie's UX. All curl options exposed with automatic JSON highlighting. `JSON`
